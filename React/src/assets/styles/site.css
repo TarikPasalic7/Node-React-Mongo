@@ -1,0 +1,60 @@
+.left{
+    float:left;
+}
+
+.right{
+    float:right;
+}
+
+.navigator{
+    margin-top: 24px;
+    margin-right: 24px;
+}
+
+.container{
+    width: 96%;
+    text-align: center;
+    padding: 12px;
+}
+
+table {
+    margin:25px auto ;
+    border: 1px solid darkcyan;
+}
+
+table th{
+
+background-color: darkcyan m !important;
+color: black;
+border-bottom:1px solid black;
+
+}
+table tr {
+cursor: pointer;
+background-color: darkcyan m !important;
+color: black;
+   height: 36px !important;
+    
+    }
+
+    table tr:nth-child(2n+1) {
+        cursor: pointer;
+            background-color: rgb(220, 192, 192) m !important;
+          
+            
+            }
+            table td {
+               padding: 2px 8px !important;
+               border-right: 1px solid darkcyan;
+                    
+                    }
+                    table td:last-child {
+                        padding: 2px 8px !important;
+                        border-right: none;
+                             
+                             }
+
+   .form{
+       width: 50%;
+       margin: 24px auto;
+   }                          
