@@ -4,7 +4,7 @@ const AuthorSchema = new mongoose.Schema({
     firstName: String,
     lastName: String,
     yearOfBirth:Number,
-    adress:String
+    address:String
 
 });
 
