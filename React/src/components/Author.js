@@ -108,25 +108,25 @@ const back = ()=>{
             <h2>Author</h2>
             <form className='form'  >
               <div style={{margin:'12px 0'}}>
-                  <label htmlFor='firstName'>First name:</label>
+                  <label className='p10' htmlFor='firstName'>First name:</label>
                   <input type='text' name='firstName' value={author.firstName} onChange={changeHnadler} required/>
               </div>
               <div style={{ fontSize: 12, color: "red" }}>
             {validationfirstName}
           </div>
               <div style={{margin:'12px 0'}}>
-                  <label htmlFor='lastName'>Last name:</label>
+                  <label className='p10' htmlFor='lastName'>Last name:</label>
                   <input type='text' name='lastName'  value={author.lastName} onChange={changeHnadler} required />
               </div>
               <div style={{ fontSize: 12, color: "red" }}>                     
             {validationlastName}
           </div>
           <div style={{margin:'12px 0'}}>
-                  <label htmlFor='yearOfBirth'>Age:</label>
+                  <label className='p10' htmlFor='yearOfBirth'>Age:                                                 </label>
                   <input type='number' name='yearOfBirth'  value={author.yearOfBirth}  onChange={changeHnadler} />
               </div>
               <div style={{margin:'12px 0'}}>
-                  <label htmlFor='address'>Address:</label>
+                  <label className='p10' htmlFor='address'>Address:</label>
                   <input type='text' name='address'  value={author.address}  onChange={changeHnadler}  />
               </div>
               <hr/>

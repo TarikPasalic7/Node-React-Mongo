@@ -1,7 +1,7 @@
 const footer = () => {
 
     return (
-        <footer>footer</footer>
+        <footer>@tarik_pasalic</footer>
     )
 }
 

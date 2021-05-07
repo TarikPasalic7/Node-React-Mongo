@@ -106,14 +106,14 @@ const back = ()=>{
             <h2>Book</h2>
             <form className='form'  >
               <div style={{margin:'12px 0'}}>
-                  <label htmlFor='name'>Book name:</label>
+                  <label className='p10' htmlFor='name'>Book name:</label>
                   <input type='text' name='name' value={book.name} onChange={changeHnadler} required/>
               </div>
               <div style={{ fontSize: 12, color: "red" }}>
             {validationName}
           </div>
               <div style={{margin:'12px 0'}}>
-                  <label htmlFor='points'>Book grade:</label>
+                  <label className='p10' htmlFor='points'>Book grade:</label>
                   <input type='text' name='grade'  value={book.grade} onChange={changeHnadler} required />
               </div>
               <div style={{ fontSize: 12, color: "red" }}>                     

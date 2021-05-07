@@ -14,7 +14,7 @@ const Home = () =>{
     return(
         <div className='container'>
             <img src={logo} alt='Logo' style={styles.image} height='100' width='100'/>
-            <div style={styles.title}>Welcome to my first app</div>
+            <div style={styles.title}>Books Home Page</div>
 
         </div>
     )

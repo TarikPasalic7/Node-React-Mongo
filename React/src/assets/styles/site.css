@@ -24,14 +24,14 @@ table {
 
 table th{
 
-background-color: darkcyan m !important;
+background-color: rgb(172, 181, 181)  !important;
 color: black;
 border-bottom:1px solid black;
 
 }
 table tr {
 cursor: pointer;
-background-color: darkcyan m !important;
+background-color: rgb(126, 213, 213)  !important;
 color: black;
    height: 36px !important;
     
@@ -57,4 +57,8 @@ color: black;
    .form{
        width: 50%;
        margin: 24px auto;
-   }                          
+   } 
+   
+   .p10{
+       padding: 10px;
+   }
